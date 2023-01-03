@@ -1,0 +1,21 @@
+a{
+    text-decoration: underline;
+    color: white;
+    font-size: 20px;
+}
+
+body{
+    background-color: #000000;
+}
+
+.ContainerImages{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+}
+
+#Img1{
+    margin-left: 150px;
+}
+

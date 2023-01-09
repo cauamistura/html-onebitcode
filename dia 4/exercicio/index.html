@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <h3>Cadastro da liga dos astronautas</h3>
+    <img src="./images/logo.png" alt="logo.png" style="margin-left: 4rem;">
+
+    <form action="">
+        <label for="name">Nome:</label>
+        <input type="text" name="name">
+
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email">
+
+        <label for="psw">- Password:</label>
+        <input type="password" name="psw">
+
+        <br><br>
+
+        <label for="date">Data de Nascimento:</label>
+        <input type="date" name="birthday">
+
+        <label for="file">- Foto:</label>
+        <input type="file" name="file">
+
+        <br><br>
+
+        <label for="nacionality">Nacionalidade:</label>
+        <select name="nacionality" id="nacionality">
+            <option value="Brasil">Brasil</option>
+            <option value="EUA">EUA</option>
+            <option value="Argentina">Argentina</option>
+        </select>
+
+        <label>- Sexo:</label>
+        <input type="radio" id="f" name="sexo" value="F">
+        <label for="f">F</label>
+        <input type="radio" id="css" name="sexo" value="M">
+        <label for="m">M</label>
+
+        <br><br>
+
+        <label>Suas qualidades:</label><br>
+        <label for="skills">Inteligencia</label>
+        <input type="checkbox" id="skills" name="inteligencia" value="inteligencia">
+        <label for="skills">|Resiliencia</label>
+        <input type="checkbox" id="skills" name="resiliencia" value="resiliencia">
+        <label for="skills">|Preparo</label>
+        <input type="checkbox" id="skills" name="preparo" value="preparo">
+        <label for="skills">|Educacao</label>
+        <input type="checkbox" id="skills" name="educacao" value="educacao">
+
+        <br><br>
+
+        <textarea id="w3review" name="w3review" rows="4" cols="50" placeholder="Porque você gostaria de ser astronauta??"></textarea> 
+
+        <br><br>
+
+        <input type="submit" value="Fazer Cadastro">
+    </form>
+</body>
+</html>
